@@ -1,0 +1,135 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: gray; 
+}
+header{
+    background-color: rgb(20, 4, 65);
+    height:150px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    justify-content: center;
+    margin:0px;
+}
+span{
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 0px 30px;
+    color: rgb(136, 13, 29) ;
+    box-sizing: border-box;
+    border: 5px solid red;
+    border-radius:10px;
+    box-shadow: 4px 4px 1px rgb(97, 8, 100);
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 2px 0px 3px gray;
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 150%;
+}
+span:hover{
+    background-color: darkgray;
+    color: darkblue;
+}
+.head{
+    width: 300px;
+    font-size: 1.1em;
+    margin:10px;
+    font-weight: 120%;
+}
+.body-container{
+    border: 5px solid green;
+    display:flex;
+    flex-flow: row wrap;
+    background-image: url(./images/gs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.address, .cmnt{
+    width: 300px;
+    height: 300px;
+    margin:0px 20px 50px 0px;
+    padding:10px;
+    font-size: 1.5em;
+}
+.image{
+    border: 2px solid black;
+    margin: 70px 0px 0px 0px;
+}
+.image-container{
+    padding:10px;
+    height: 300px;
+    width:300px;
+    margin:0px 0px 0px 50px;
+}
+
+.float{
+    background-color: rgb(98, 240, 98);
+    text-shadow: none;
+    color:rgb(25, 9, 94);
+    font-size: 1.6em;
+    width:500px;
+    height:100px;
+    padding:0px;
+    line-height: 80%;
+    margin: 270px 30px 30px 30px;
+    position: -webkit-sticky; 
+    position: sticky;
+    top:400px;
+}
+.form{
+    width: 300px;
+    height: 300px;
+    margin:0px 0px 50px 610px;
+    padding:10px;
+}
+footer{
+    background-image: url(./images/fruit1.jpg);
+}
+.footer-container{
+    margin:20px 280px 0px 280px;
+    border: 5px solid red;
+    background-color: green;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.foot-top{
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+    width:500px;
+    height: 80px;
+    margin:0px;
+}
+.foot-veg,.foot-fruits,.foot-others{
+    width:330px;
+    height: 300px;
+    margin:5px;
+    background-color: rgb(241, 238, 14);
+    box-shadow: none;
+    border:2px solid grey;
+    padding: none;
+    color:black;
+}
+.foot-others{
+    width:670px;
+    height:270px;
+}
+.hr-foot{
+    color: black;
+    ;
+}
+#submit{
+    margin:5px;
+    padding: 3px 8px;
+    background-color: rgb(112, 17, 17);
+    color: #ffffff;
+    border-radius: 15px;
+}
+#submit:hover{
+    background-color: bisque;
+    color: darkblue;
+}
